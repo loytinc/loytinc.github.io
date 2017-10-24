@@ -8,7 +8,7 @@
             height: auto;
         }
 
-        
+
         #bodyHead {
             padding-top: 50px;
             background-image: url('https://raw.githubusercontent.com/loyti/images/50b550d520937c2741fef4fdb523c52766f41140/TurtleSwim.JPG');
@@ -65,6 +65,28 @@
             padding-top: 50px;
             background-color: rgba(255,255,255,1);
             position: relative;
+        }
+
+        /* Carousel base class */
+        .carousel {
+            margin-bottom: 4rem;
+        }
+        /* Since positioning the image, we need to help out the caption */
+        .carousel-caption {
+            z-index: 10;
+            bottom: 3rem;
+        }
+        /* Declare heights because of positioning of img element */
+        .carousel-item {
+            height: 32rem;
+            background-color: #fff;
+        }
+        .carousel-item > img {
+            position: absolute;
+            top: 0;
+            left: 0;
+            min-width: 100%;
+            height: 32rem;
         }
 
         #fmmHead {
