@@ -225,10 +225,10 @@
 
         #sampleSF2 {
             padding-top: 50px;
-            background-image: url('https://1.mark1wealthacademy.com/hubfs/Marketing/Ad%20Images/Road.jpg');
+            background-image: url('https://github.com/loyti/images/blob/master/leadGenOctober.png?raw=true');
             background-repeat: no-repeat;
             background-attachment: fixed;
-            background-position: -800 -2400;
+            background-position: center;
             
         }
 
@@ -311,7 +311,7 @@
             background-image: url('https://github.com/loyti/images/blob/master/waterSunset.JPG?raw=true');
             background-repeat: no-repeat;
             background-attachment: fixed;
-            background-size: 150%;
+            background-size: 110%;
             overflow: hidden;
 
         }

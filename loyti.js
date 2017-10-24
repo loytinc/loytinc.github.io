@@ -8,11 +8,26 @@ $(document).ready(function(){
         var hash = this.hash;
         $('html, body').animate({
           scrollTop: $(hash).offset().top
-        }, 2800, function(){
+        }, 2000, function(){
           window.location.hash = hash;
         });
       }
     });
+
+    $(".nav-link").on('click', function(event) {  
+      // Make sure this.hash has a value before overriding default behavior
+      if (this.hash !== "") {
+        // Prevent default anchor click behavior
+        event.preventDefault();
+        var hash = this.hash;
+        $('html, body').animate({
+          scrollTop: $(hash).offset().top
+        }, 2000, function(){
+          window.location.hash = hash;
+        });
+      }
+    });
+
     $("#trackingS").on('click', function(event) {  
       // Make sure this.hash has a value before overriding default behavior
       if (this.hash !== "") {
@@ -21,11 +36,12 @@ $(document).ready(function(){
         var hash = this.hash;
         $('html, body').animate({
           scrollTop: $(hash).offset().top
-        }, 3000, function(){
+        }, 2000, function(){
           window.location.hash = hash;
         });
       }
     });
+
     $("#targetS").on('click', function(event) {  
       // Make sure this.hash has a value before overriding default behavior
       if (this.hash !== "") {
@@ -34,7 +50,7 @@ $(document).ready(function(){
         var hash = this.hash;
         $('html, body').animate({
           scrollTop: $(hash).offset().top
-        }, 3000, function(){
+        }, 2000, function(){
           window.location.hash = hash;
         });
       }
@@ -48,7 +64,7 @@ $(document).ready(function(){
         var hash = this.hash;
         $('html, body').animate({
           scrollTop: $(hash).offset().top
-        }, 3000, function(){
+        }, 1500, function(){
           window.location.hash = hash;
         });
       }
@@ -62,7 +78,7 @@ $(document).ready(function(){
         var hash = this.hash;
         $('html, body').animate({
           scrollTop: $(hash).offset().top
-        }, 3000, function(){
+        }, 1200, function(){
           window.location.hash = hash;
         });
       }
