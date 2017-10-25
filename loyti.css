@@ -327,4 +327,15 @@
 
         }
 
+        #sampleSF8 {
+            padding-top: 50px;
+            background-image: url('https://github.com/loyti/images/blob/master/madeInUSA.png?raw=true');
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-position: center;
+            background-size: 100%;
+            overflow: hidden;
+
+        }
+
         
