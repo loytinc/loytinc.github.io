@@ -69,6 +69,11 @@
             position: relative;
         }
 
+        #theKeys {
+            padding-top: 50px;
+            position: relative;
+        }
+
         /* Carousel base class */
         .carousel {
             margin-bottom: 4rem;
@@ -238,6 +243,8 @@
             background-attachment: fixed;
             background-position: center;
             
+            
+            
         }
 
         #sampleSF3 {
@@ -325,13 +332,11 @@
 
         }
 
-        #aboutBriceButton, #aboutChangeButton, #aboutServicesButton {
+        #aboutBriceButton, #aboutChangeButton, #aboutServicesButton, #leadGen, #Conversion, #traffic {
             transition: width 2s, height 2s, transform 2s;
         }
 
-        #aboutBriceButton:hover, #aboutChangeButton:hover, #aboutServicesButton:hover {
-            /* width: auto;
-            height: 100px; */
+        #aboutBriceButton:hover, #aboutChangeButton:hover, #aboutServicesButton:hover, #leadGen:hover, #Conversion:hover, #traffic:hover {
             -webkit-transform: rotate(360deg); /* Safari */
             transform: rotate(360deg);
         }
