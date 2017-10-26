@@ -325,4 +325,15 @@
 
         }
 
+        #aboutBriceButton, #aboutChangeButton, #aboutServicesButton {
+            transition: width 2s, height 2s, transform 2s;
+        }
+
+        #aboutBriceButton:hover, #aboutChangeButton:hover, #aboutServicesButton:hover {
+            /* width: auto;
+            height: 100px; */
+            -webkit-transform: rotate(360deg); /* Safari */
+            transform: rotate(360deg);
+        }
+
         
