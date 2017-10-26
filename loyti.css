@@ -332,13 +332,18 @@
 
         }
 
-        #aboutBriceButton, #aboutChangeButton, #aboutServicesButton, #leadGen, #Conversion, #traffic {
+        #aboutBriceButton, #aboutChangeButton, #aboutServicesButton, #leadGen, #Conversion, #traffic, #aboutCustomButton, #aboutLookalikeButton, #aboutSpecificCategoriesButton, #aboutURLRulesButton {
             transition: width 2s, height 2s, transform 2s;
         }
 
-        #aboutBriceButton:hover, #aboutChangeButton:hover, #aboutServicesButton:hover, #leadGen:hover, #Conversion:hover, #traffic:hover {
+        #aboutBriceButton:hover, #aboutServicesButton:hover, #leadGen:hover, #traffic:hover, #aboutCustomButton:hover, #aboutSpecificCategoriesButton:hover {
             -webkit-transform: rotate(360deg); /* Safari */
             transform: rotate(360deg);
+        }
+
+        #aboutChangeButton:hover, #Conversion:hover, #aboutLookalikeButton:hover, #aboutURLRulesButton:hover {
+            -webkit-transform: rotate(-360deg); /* Safari */
+            transform: rotate(-360deg);
         }
 
         
