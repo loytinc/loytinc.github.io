@@ -143,7 +143,7 @@
             transform:skew(8deg) rotate(3deg);
         }
 
-        #dnm, .dnm, #leadGen, #Conversion, #traffic, #target, #tracking {
+        #dnm, .dnm {
             margin: 10px auto 10px auto;
             padding: 10px auto 10px auto;
             display: flex;
@@ -159,7 +159,33 @@
             -webkit-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
             -moz-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
             box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
-            
+            flex-direction: column;
+            flex-wrap: wrap;
+            -webkit-justify-content: center;
+            justify-content: center;
+            color: #fff;
+            font-family: georgia;
+            text-align: center;
+            margin: 10px auto 10px auto;
+            padding: 10px auto 10px auto;
+        }
+
+        #leadGen, #Conversion, #traffic, #target, #tracking, #aboutBriceButton, #aboutChangeButton, #aboutServicesButton, #leadGen, #Conversion, #traffic, #aboutCustomButton, #aboutLookalikeButton, #aboutSpecificCategoriesButton, #aboutURLRulesButton, #aboutDataButton {
+            margin: 10px auto 10px auto;
+            padding: 10px auto 10px auto;
+            display: flex;
+            -webkit-justify-content: center;
+            justify-content: center;
+            text-align: center;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+            text-align: center;
+            position:relative;
+            flex-direction: column;
+            -webkit-justify-content: center;
+            justify-content: center;
+            -webkit-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+            -moz-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+            box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
             flex-direction: column;
             flex-wrap: wrap;
             -webkit-justify-content: center;
@@ -336,11 +362,11 @@
 
         }
 
-        #aboutBriceButton, #aboutChangeButton, #aboutServicesButton, #leadGen, #Conversion, #traffic, #aboutCustomButton, #aboutLookalikeButton, #aboutSpecificCategoriesButton, #aboutURLRulesButton {
+        #aboutBriceButton, #aboutChangeButton, #aboutServicesButton, #leadGen, #Conversion, #traffic, #aboutCustomButton, #aboutLookalikeButton, #aboutSpecificCategoriesButton, #aboutURLRulesButton, #aboutDataButton {
             transition: width 2s, height 2s, transform 2s;
         }
 
-        #aboutBriceButton:hover, #aboutServicesButton:hover, #leadGen:hover, #traffic:hover, #aboutCustomButton:hover, #aboutSpecificCategoriesButton:hover {
+        #aboutBriceButton:hover, #aboutServicesButton:hover, #leadGen:hover, #traffic:hover, #aboutCustomButton:hover, #aboutSpecificCategoriesButton:hover, #aboutDataButton:hover {
             -webkit-transform: rotate(360deg); /* Safari */
             transform: rotate(360deg);
         }
