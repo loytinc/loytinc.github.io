@@ -9,11 +9,11 @@ $(document).ready(function(){
       $('[data-toggle="tooltip"]').tooltip('toggle')
     });
 
-    $( function() {
+    $(function() {
       $( document ).tooltip({
         track: true
       });
-    } );
+    });
 
     
     // $('[data-toggle="popover"]').popover('hover', function(e){

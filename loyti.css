@@ -261,7 +261,7 @@
             background-repeat: no-repeat;
             background-attachment: fixed;
             background-position: center;
-            background-size: 200%;
+            background-size: 100%;
             
         }
 
@@ -272,8 +272,16 @@
             background-attachment: fixed;
             background-position: center;
             
-            
-            
+        }
+
+        #sampleSF2b {
+            /* padding-top: 50px; */
+            background-image: url('https://github.com/loyti/images/blob/master/lightningCloud.JPG?raw=true');
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-position: center;
+            background-size: 100%;
+            overflow: hidden;
         }
 
         #sampleSF3 {
@@ -328,17 +336,38 @@
         }
 
 
-        #sampleSF6 {
-            padding-top: 50px;
-            background-image: url('https://github.com/loyti/images/blob/master/57chevy.jpg?raw=true');
-            /* background-image: url('https://github.com/loyti/images/blob/master/crossRoad.jpg?raw=true'); */
+        #Customizations {
+            /* padding-top: 50px; */
+            background: url('https://github.com/loyti/images/blob/master/EvilLurks.jpg?raw=true');
             background-repeat: no-repeat;
             background-attachment: fixed;
             background-position: center;
-            background-size: 150%;
+            background-size: 100%;
             overflow: hidden;
+            
 
         }
+
+        #customBack {
+            width: 100%;
+            height: 100%;
+            margin: 0px 0px 0px 0px;
+            padding: 0px 0px 0px 0px;
+            animation-name: sampleBack;
+            animation-duration: 20s;
+            animation-direction: alternate-reverse;
+            animation-iteration-count: infinite;
+        }
+
+        @keyframes sampleBack {
+            0%   {background: rgba(0,0,0,0);}
+            25%  {background: rgba(0,0,0,.5);}
+            50%  {background: rgba(0,0,0,1);}
+            75%  {background: rgba(0,0,0,.5);}
+            100% {background: rgba(0,0,0,0);}
+            
+        }
+
 
         #sampleSF7 {
             padding-top: 50px;
