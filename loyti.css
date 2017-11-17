@@ -30,6 +30,7 @@
             overflow: hidden;
             z-index: -100;
             margin-bottom: 100px;
+            
         }
 
         .fullscreen-bg__video {
@@ -39,6 +40,7 @@
             left: 0;
             width: 100%;
             height: auto;
+            
         }
 
         #bodyTop {
@@ -72,14 +74,12 @@
         }
 
         #theKeys {
-            margin-top: 150px;
             padding-top: 50px;
-            position: relative;
         }
 
         /* Carousel base class */
         .carousel {
-            margin-bottom: 4rem;
+            margin-bottom: 1rem;
         }
         /* Since positioning the image, we need to help out the caption */
         .carousel-caption {
@@ -103,7 +103,6 @@
             margin: 10px auto 10px auto;
             padding: 10px auto 10px auto;
             display: flex;
-            /* background: rgba(0,255,50,.8); */
             box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
             position:relative;
             flex-direction: column;
@@ -266,7 +265,8 @@
         }
 
         #sampleSF2 {
-            padding-top: 50px;
+            margin-top: -50px; 
+            /* padding-top: 50px; */
             background-image: url('https://github.com/loyti/images/blob/master/leadGenOctober.png?raw=true');
             background-repeat: no-repeat;
             background-attachment: fixed;
@@ -294,7 +294,7 @@
             overflow: hidden;
         }
 
-        #sampleSF4 {
+        #audience {
             padding-top: 50px;
             background-image: url('https://github.com/loyti/images/blob/master/targetAudience.png?raw=true');
             background-repeat: no-repeat;
@@ -304,7 +304,7 @@
             overflow: hidden;
         }
 
-        #sampleSF5 {
+        #track {
             padding-top: 50px;
             background-image: url('https://github.com/loyti/images/blob/master/LegoLostDirections.jpg?raw=true');
             background-repeat: no-repeat;
@@ -337,7 +337,6 @@
 
 
         #Customizations {
-            /* padding-top: 50px; */
             background: url('https://github.com/loyti/images/blob/master/EvilLurks.jpg?raw=true');
             background-repeat: no-repeat;
             background-attachment: fixed;
@@ -349,10 +348,9 @@
         }
 
         #customBack {
+            margin-top: -50px;
+            padding-top: 100px;
             width: 100%;
-            height: 100%;
-            margin: 0px 0px 0px 0px;
-            padding: 0px 0px 0px 0px;
             animation-name: sampleBack;
             animation-duration: 20s;
             animation-direction: alternate-reverse;
@@ -380,7 +378,7 @@
 
         }
 
-        #sampleSF8 {
+        #about {
             padding-top: 50px;
             background-image: url('https://github.com/loyti/images/blob/master/madeInUSA.png?raw=true');
             background-repeat: no-repeat;
